@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- based on Czechitas course -->
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,500&display=swap&subset=latin-ext" rel="stylesheet">
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <link type="text/css" rel="stylesheet" href="style.css">
+        
+        <title>Dice game</title>
+    </head>
+
+    <body>
+        <div class="obsah clearfix">
+            <div class="hrac-0-panel aktivni">
+                <div class="hrac-jmeno" id="jmeno-0">Player 1</div>
+                <div class="hrac-body" id="body-0">43</div>
+                <div class="hrac-soucasne-box">
+                    <div class="hrac-soucasne-popisek">Score</div>
+                    <div class="hrac-soucasne-body" id="soucasne-0">11</div>
+                </div>
+            </div>
+            
+            <div class="hrac-1-panel">
+                <div class="hrac-jmeno" id="jmeno-1">Player 2</div>
+                <div class="hrac-body" id="body-1">72</div>
+                <div class="hrac-soucasne-box">
+                    <div class="hrac-soucasne-popisek">Score</div>
+                    <div class="hrac-soucasne-body" id="soucasne-1">0</div>
+                </div>
+            </div>
+            
+            <button class="tlacitko-novy"><i class="ion-ios-plus-outline"></i>New Game</button>
+            <button class="tlacitko-hod"><i class="ion-ios-loop"></i>Throw a dice</button>
+            <button class="tlacitko-dost"><i class="ion-ios-download-outline"></i>Enough</button>
+            
+            <div class="kostka">5</div>
+        </div>
+        
+        <script src="app.js"></script>
+    </body>
+</html>
